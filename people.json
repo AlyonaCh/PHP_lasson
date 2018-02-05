@@ -1,0 +1,23 @@
+
+[{
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "address": "г.Москва, ул. Алиева,2",
+  "phoneNumber": "812 123-1234"
+},{
+  "firstName": "Алёна",
+  "lastName": "Черняева",
+  "address": "г.Екатеринбург, ул. Алиева,2",
+  "phoneNumber": "534 123-1234"
+},{
+  "firstName": "Петя",
+  "lastName": "Сидоровв",
+  "address": "г.Питер, ул. Алиева,2",
+  "phoneNumber": "845 123-1234"
+},{
+  "firstName": "Вася",
+  "lastName": "Петров",
+  "address": "г.Сочи, ул. Алиева,2",
+  "phoneNumber": "999 123-1234"
+}
+]
