@@ -1,6 +1,6 @@
 <?php
 spl_autoload_register(function ($class_name) {
-    include $class_name . '.php';
+    include Class\$class_name . '.php';
 });
 $tomato = new Vegetables('Tomato', 200);
 $apple = new Fruit('Apple', 29);
