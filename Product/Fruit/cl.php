@@ -1,7 +1,7 @@
 <?php
 namespace Fruit ;
-class Fruit extends Product {
+class cl extends \Product\cl {
     const CONSTANT = 'Fruit';
-    }
+}
 
 ?>

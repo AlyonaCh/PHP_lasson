@@ -1,6 +1,6 @@
 <?php
 namespace Clothest ;
-class Clothest extends Product{
+class cl extends \Product\cl {
     const CONSTANT = 'Clothest';
-  }
+}
 ?>

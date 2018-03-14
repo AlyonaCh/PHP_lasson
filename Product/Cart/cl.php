@@ -1,4 +1,6 @@
-class Cart{
+<?php
+namespace Cart ;
+ class cl {
     public $countProduct = [];
     public function addProduct($product){
        $product->numberProduct = 1;
@@ -8,27 +10,27 @@ class Cart{
         else{
             $this->countProduct[$product->title] = $product;
         }
-    }
-    public function deleteOneProduct($product){ //убрать 1 одинаковый продукт
-       if(array_key_exists($product->title, $this->countProduct)){
+   }
+    public function deleteOneProduct ($product) {
+       if(array_key_exists($product->title, $this->countProduct)) {
 
-           if($this->countProduct[$product->title]->numberProduct > 0){
+           if($this->countProduct[$product->title]->numberProduct > 0) {
 
                 $this->countProduct[$product->title]->numberProduct--;
                 echo 'Name ' . $this->countProduct[$product->title]->title. ' Delete<br>';
            }
        }
    }
-    public function showAllProduct(){
+    public function showAllProduct () {
         $resCountProduct = 0;
-        foreach($this->countProduct as $key => $value){
+        foreach($this->countProduct as $key => $value) {
             echo 'Name:' . $key . ',<br>';
             $resCountProduct = $resCountProduct + $value->numberProduct;
       }echo 'Count: ' . $resCountProduct;
     }
-    public function sum(){ //подсчитать общую сумму продукта
+    public function sum() { 
         $res = 0;
-        foreach($this->countProduct as $key => $value){
+        foreach ($this->countProduct as $key => $value) {
             $res = $res + ($value->price * $value->numberProduct);
         }
 
@@ -36,3 +38,4 @@ class Cart{
 
     }
 }
+?>

@@ -1,6 +1,6 @@
 <?php
 namespace Vegetables ;
-class Vegetables extends Product {
+class cl extends \Product\cl {
   const CONSTANT = 'Vegetable';
-  }
+}
 ?>
