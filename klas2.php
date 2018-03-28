@@ -116,7 +116,7 @@ $produkt2= new Product ('shirt' ,'clothes' ,2000);
 echo $produkt2->GetInfoProduct();
 $produkt3= new Product('shorts' ,'clothes' ,1000);
 echo $produkt3->GetInfoProduct();
-$produkt4= new Product ('jacket', 'clothes' ,5000);
+$produkt4= new Product ('jacket','clothes' ,5000);
 echo $produkt4->GetInfoProduct();
 interface NewsIn
 {
